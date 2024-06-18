@@ -38,7 +38,7 @@ def enviar_email(destinatario, assunto, corpo_email, remetente, senha):
     # Enviar e-mail
     server.sendmail(remetente, destinatario, mensagem.as_string())
 
-    # Fechar conexão com o servidor SMTP
+    # Fechar conexão com o servidor SMTP tt
     server.quit()
 
 def enviar_whatsapp(Nome, Telefone):
