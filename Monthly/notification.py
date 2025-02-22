@@ -23,7 +23,7 @@ def enviar_email(destinatario, assunto, corpo_email, remetente, senha):
     server = smtplib.SMTP('smtp.gmail.com', 587)
     server.starttls()
 
-    # Faça o login no servidor SMTP
+    # Faça o login no servidor SMTP 
     server.login(remetente, senha)
 
     # Criar mensagem de e-mail
